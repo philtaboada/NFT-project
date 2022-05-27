@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    margin: 2%;
+}
+
+.card{
+    margin: auto;
+    width: 300px;
+    height: 470px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-image{
+    display: flex;
+    justify-content: center;
+}
+
+.main-image{
+    width: 95%;
+    border-radius: 5px;
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.fila1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    display: flex;
+}
+
+.icon{
+    width: 10px;
+    height: 18px;
+}
+
+.parraf{
+    padding-left: 5px;
+    font-size: 14px;
+    margin: 0;
+    color: hsl(178, 100%, 50%);
+}
+
+.price1{
+    display: flex;
+}
+
+.parraf1{
+    margin: 0;
+}
+
+.icon1{
+    width: 18px;
+    height: 18px;
+    padding-right: 5px;
+}
+
+hr{
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: 0;
+}
+
+.photo{
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.final{
+    display: flex;
+}
+
+.final1{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin: 0;
+}
